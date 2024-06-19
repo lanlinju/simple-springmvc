@@ -16,8 +16,7 @@ class UserController() {
 
     @RequestMapping("/name")
     fun getUserByName(
-        @RequestParam("username") username: String, @RequestParam("age") age: Int,
-        req: HttpServletRequest,
+        @RequestParam("username") username: String, @RequestParam("age") age: Int, req: HttpServletRequest,
     ): String {
         return "$username is $age"
     }

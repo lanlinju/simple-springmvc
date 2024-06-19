@@ -9,15 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ee6b353-e6b3-421b-9dab-aa94768e5505" name="Changes" comment="使用WebServlet注解代替web.xml对DispatcherServlet的启动配置">
-      <change afterPath="$PROJECT_DIR$/artwork/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artwork/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artwork/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artwork/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artwork/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artwork/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artwork/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="8ee6b353-e6b3-421b-9dab-aa94768e5505" name="Changes" comment="update README">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc/src/main/kotlin/com/example/springmvc/DispatcherServlet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/src/main/kotlin/com/example/springmvc/DispatcherServlet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc/src/main/kotlin/com/example/springmvc/WebApplicationContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/src/main/kotlin/com/example/springmvc/WebApplicationContext.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +193,7 @@
       <workItem from="1718709511411" duration="3611000" />
       <workItem from="1718722571460" duration="6562000" />
       <workItem from="1718730662358" duration="6125000" />
-      <workItem from="1718784160175" duration="1099000" />
+      <workItem from="1718784160175" duration="4009000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -248,7 +243,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718785239797</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add pictures">
+      <option name="closed" value="true" />
+      <created>1718785650973</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718785650973</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update README">
+      <option name="closed" value="true" />
+      <created>1718785700015</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718785700015</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +295,8 @@
     <MESSAGE value="添加Web Application框架支持&#10;&#10;Modules -&gt; add -&gt; web Or select module directory -&gt; double shift -&gt; search for add framework support" />
     <MESSAGE value="实现spring mvc的大致功能" />
     <MESSAGE value="使用WebServlet注解代替web.xml对DispatcherServlet的启动配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用WebServlet注解代替web.xml对DispatcherServlet的启动配置" />
+    <MESSAGE value="add pictures" />
+    <MESSAGE value="update README" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README" />
   </component>
 </project>
