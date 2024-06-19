@@ -5,8 +5,8 @@ import com.example.springmvc.Service
 @Service
 class UserService {
 
-    fun sayHello() {
-        println("Hello World!")
+    fun sayHello(): String {
+        return "Hello World!"
     }
 
 }

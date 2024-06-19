@@ -2,10 +2,17 @@ package com.example.springmvc
 
 import java.lang.reflect.Method
 import java.util.*
+import javax.servlet.annotation.WebInitParam
+import javax.servlet.annotation.WebServlet
 import javax.servlet.http.HttpServlet
 import javax.servlet.http.HttpServletRequest
 import javax.servlet.http.HttpServletResponse
 
+@WebServlet(
+    "/*",
+    loadOnStartup = 1, //启动tomcat时初始化DispatcherServlet
+    initParams = [WebInitParam(name = "contextConfigLocation", value = "application.properties")],
+)
 class DispatcherServlet : HttpServlet() {
 
     private lateinit var webApplicationContext: WebApplicationContext

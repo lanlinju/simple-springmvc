@@ -19,8 +19,12 @@ class UserController() {
         @RequestParam("username") username: String, @RequestParam("age") age: Int,
         req: HttpServletRequest,
     ): String {
-        userService.sayHello()
         return "$username is $age"
+    }
+
+    @RequestMapping("/hello")
+    fun sayHello(): String {
+        return userService.sayHello()
     }
 
 }
