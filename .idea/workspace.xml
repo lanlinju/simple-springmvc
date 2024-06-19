@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ee6b353-e6b3-421b-9dab-aa94768e5505" name="Changes" comment="添加Web Application框架支持&#10;&#10;Modules -&gt; add -&gt; web Or select module directory -&gt; double shift -&gt; search for add framework support">
+    <list default="true" id="8ee6b353-e6b3-421b-9dab-aa94768e5505" name="Changes" comment="使用WebServlet注解代替web.xml对DispatcherServlet的启动配置">
       <change afterPath="$PROJECT_DIR$/artwork/1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/artwork/2.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/artwork/3.png" afterDir="false" />
@@ -17,21 +17,7 @@
       <change afterPath="$PROJECT_DIR$/artwork/5.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/artwork/6.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/artwork/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/kotlin/com/example/springmvc/Annotation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/kotlin/com/example/springmvc/DispatcherServlet.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/kotlin/com/example/springmvc/WebApplicationContext.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/kotlin/com/example/springmvc/controller/UserController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/kotlin/com/example/springmvc/service/UserService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +69,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4297052",
-    "settings.editor.selected.configurable": "preferences.customizations",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -212,6 +198,7 @@
       <workItem from="1718709511411" duration="3611000" />
       <workItem from="1718722571460" duration="6562000" />
       <workItem from="1718730662358" duration="6125000" />
+      <workItem from="1718784160175" duration="1099000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -245,7 +232,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718713288878</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="实现spring mvc的大致功能">
+      <option name="closed" value="true" />
+      <created>1718784948063</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718784948063</updated>
+    </task>
+    <task id="LOCAL-00006" summary="使用WebServlet注解代替web.xml对DispatcherServlet的启动配置">
+      <option name="closed" value="true" />
+      <created>1718785239797</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718785239797</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +282,8 @@
     <MESSAGE value="Init" />
     <MESSAGE value="添加tomcat相关依赖" />
     <MESSAGE value="添加Web Application框架支持&#10;&#10;Modules -&gt; add -&gt; web Or select module directory -&gt; double shift -&gt; search for add framework support" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加Web Application框架支持&#10;&#10;Modules -&gt; add -&gt; web Or select module directory -&gt; double shift -&gt; search for add framework support" />
+    <MESSAGE value="实现spring mvc的大致功能" />
+    <MESSAGE value="使用WebServlet注解代替web.xml对DispatcherServlet的启动配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用WebServlet注解代替web.xml对DispatcherServlet的启动配置" />
   </component>
 </project>
